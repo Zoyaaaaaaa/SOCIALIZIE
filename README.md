@@ -2,6 +2,7 @@
 It is a site where you can add, edit and delete your post.
 Video of working  model of website .
 https://github.com/Zoyaaaaaaa/SOCIALIZIE/assets/126981793/167e150d-1752-4401-81f0-ab173e20abe1
+
 Pictures of different pages of site.
 ![image](https://github.com/Zoyaaaaaaa/SOCIALIZIE/assets/126981793/54faaadb-8be2-44a0-857b-bf7c756c4fbe)
 See the post in detail
