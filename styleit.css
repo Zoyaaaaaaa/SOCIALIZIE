@@ -1,0 +1,93 @@
+
+body {
+    background-color: #8688f8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    margin-top: 10px;
+    align-self: flex-end;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: #6B6EF0;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
+
+a:hover {
+    color:black;
+
+}
+
+section {
+    justify-content:space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 20px 0;
+}
+
+.posts {
+    color: #333;
+    border: 3px solid #575756;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 20px;
+    width: 380px;
+    padding: 15px;
+    background-color: #FFF;
+    transition: transform 0.3s ease;
+}
+
+.posts:hover {
+    transform: scale(1.02);
+}
+
+.posts .user {
+    text-align: center;
+    font-size: 20px;
+    color: #6B6EF0;
+}
+
+.posts .content {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 300px;
+    align-self: flex-end;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: #6B6EF0;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:black;
+}
+.links{
+    font-size: xx-large;
+    margin-left: 600px;
+
+}
+/* <div style="padding:43.59% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/865917265?h=889be7d519&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="POST REC"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */

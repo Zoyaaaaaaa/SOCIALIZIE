@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSTS</title>
+    <link rel="stylesheet" href="/styleit.css">
+</head>
+<body>
+    <h1>SOCIALIZIE</h1>
+    <section>
+    <% for(post of posts) { %>
+ <div class="posts">
+    <h3 class="user"> @<%= post.username %></h3>
+    <h4 class="content"><%= post.content %></h4>
+    <a href="http://localhost:8080/posts/<%=post.id%>">See in detail</a>
+    <a href="http://localhost:8080/posts/<%=post.id%>/edit">EDIT</a>
+    <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+    <button>DELETE </button>
+    </form>
+ </div>
+  <%  } %>
+</section>
+  <br>
+  
+  <div class="links">
+  <a href="http://localhost:8080/posts/new">Add your thougths </a>
+  
+</div>
+<div style="padding:43.59% 0 0 0;position:relative;">
+  <iframe src="https://player.vimeo.com/video/865917265?h=889be7d519&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="POST REC"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<!-- https://vimeo.com/865917265/889be7d519?share=copy -->
+</body>
+</html>

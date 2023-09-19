@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post in Detail</title>
+ 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8688f8; 
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .post {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h3.user {
+            font-size: 18px;
+            color:black; 
+        }
+
+        h4 {
+            font-size: 16px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 14px;
+            color: #777; /* Set your desired text color here */
+        }
+    </style>
+</head>
+<body>
+    <h2>See the post in  detail</h2>
+    
+    <div class="post">
+        <h3 class="user">@ <%= post.username %></h3>
+        <h4><%= post.content %></h4>
+ 
+    </div>
+</body>
+</html>
